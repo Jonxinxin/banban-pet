@@ -1,0 +1,6 @@
+const fs=require('node:fs');const path=require('node:path');const {makeCompanion}=require('../src/core/delivery.cjs');const {createCompanion}=require('../src/core/companion.cjs');const {defaults,validateConfig}=require('../src/core/config.cjs');
+const root=path.join(__dirname,'..'),destination=process.argv[2];if(!destination)throw new Error('Provide an output .exe path');
+const settings=path.join(process.env.APPDATA,'Banban','settings.json');const config=fs.existsSync(settings)?validateConfig(JSON.parse(fs.readFileSync(settings,'utf8'))):defaults();
+if(process.argv[3]){if(!['cat','dog'].includes(process.argv[3]))throw new Error('Character must be cat or dog');config.petCharacter=process.argv[3];}
+fs.mkdirSync(path.dirname(destination),{recursive:true});
+makeCompanion({runtimeDirectory:path.join(root,'release','win-unpacked'),launcherPath:path.join(root,'build',config.petCharacter==='dog'?'BanbanGiftLauncher-dog.exe':'BanbanGiftLauncher.exe'),manifest:createCompanion(config),destination,tempDirectory:path.join(root,'test-results','exports'),onProgress:message=>console.log(message)}).then(result=>console.log(JSON.stringify(result))).catch(error=>{console.error(error);process.exitCode=1;});

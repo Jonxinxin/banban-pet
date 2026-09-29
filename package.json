@@ -1,0 +1,89 @@
+{
+  "name": "banban-pet",
+  "productName": "伴伴",
+  "version": "1.6.0",
+  "description": "陪你认真生活的桌面伙伴。小猫、大白狗、温柔提醒与专属情话，离线运行。",
+  "main": "src/main.cjs",
+  "author": {
+    "name": "Banban Project"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test tests/*.test.cjs",
+    "test:ui": "node scripts/smoke.cjs",
+    "assets": "node scripts/assets.cjs && node scripts/build-native.cjs",
+    "test:native": "node scripts/native-smoke.cjs",
+    "test:surprise": "node scripts/surprise-smoke.cjs",
+    "test:surprise:native": "node scripts/surprise-native.cjs",
+    "build": "electron-builder --win nsis --x64",
+    "build:dir": "electron-builder --win --x64 --dir",
+    "test:moments": "node scripts/moments-smoke.cjs",
+    "test:motion": "node scripts/motion-smoke.cjs",
+    "test:gaze-live": "node scripts/gaze-live-smoke.cjs"
+  },
+  "devDependencies": {
+    "electron": "44.4.5",
+    "electron-builder": "26.15.3",
+    "playwright": "1.63.0",
+    "sharp": "0.35.5"
+  },
+  "build": {
+    "appId": "local.banban.pet",
+    "productName": "伴伴",
+    "asar": true,
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "build/FullscreenSensor.exe",
+        "to": "FullscreenSensor.exe"
+      },
+      {
+        "from": "build/BanbanGiftLauncher.exe",
+        "to": "BanbanGiftLauncher.exe"
+      },
+      {
+        "from": "build/BanbanGiftLauncher-dog.exe",
+        "to": "BanbanGiftLauncher-dog.exe"
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico",
+      "artifactName": "Banban-Setup-${version}.${ext}",
+      "signAndEditExecutable": true,
+      "signtoolOptions": {
+        "signingHashAlgorithms": [
+          "sha256"
+        ]
+      }
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "allowElevation": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "伴伴",
+      "installerLanguages": [
+        "zh_CN"
+      ],
+      "language": "2052",
+      "include": "build/installer.nsh",
+      "runAfterFinish": true
+    }
+  },
+  "dependencies": {
+    "yazl": "3.3.1"
+  }
+}

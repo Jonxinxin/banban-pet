@@ -1,0 +1,21 @@
+{
+  "format": "banban-gift",
+  "version": 1,
+  "nickname": "",
+  "sender": "",
+  "welcome": "你好呀，我是伴伴。有人把想念托付给我，让我住在你的桌角，陪你工作，也提醒你照顾自己。",
+  "quotes": [
+    { "text": "{昵称}，今天也想把我的偏爱，偷偷放在你桌面上。", "enabled": true },
+    { "text": "替{我的称呼}带句话：你忙你的，我就在这里。", "enabled": true },
+    { "text": "想念有点远，所以派一只小猫，先去你身边。", "enabled": true },
+    { "text": "记得喝水，记得休息，也记得有人在认真喜欢你。", "enabled": true },
+    { "text": "不用每一天都很厉害，在我这里，你一直很好。", "enabled": true },
+    { "text": "今天有没有什么小事，让你偷偷开心了一下？", "enabled": true },
+    { "text": "等你忙完，我们再把今天慢慢讲给彼此听。", "enabled": true },
+    { "text": "你认真生活的样子，是我眼里的小小光芒。", "enabled": true },
+    { "text": "桌面有一只猫，心里有一个你。", "enabled": true },
+    { "text": "想和你一起，把未来过成很多个舒服的今天。", "enabled": true },
+    { "text": "不用回复这只小猫，收到我的想念就好。", "enabled": true },
+    { "text": "给今天的你，留一个软乎乎的拥抱。", "enabled": true }
+  ]
+}

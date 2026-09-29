@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none" role="img" aria-label="伴伴，一只云朵般的大白狗" data-character="dog">
+ <ellipse cx="120" cy="220" rx="76" ry="9" fill="#677F79" opacity=".14"/>
+ <g class="cat-rig">
+ <g class="cat-tail dog-tail"><path d="M172 195C204 206 229 186 224 162C221 148 208 144 199 153C208 154 208 166 201 169C207 178 184 173 176 179Z" fill="#FFFEFA" stroke="#68746E" stroke-width="4" stroke-linejoin="round"/><path d="M196 182Q214 182 216 166" stroke="#E4EAE4" stroke-width="5" stroke-linecap="round"/></g>
+ <g class="cat-body"><path d="M68 139Q49 157 56 179L51 189L59 191Q53 210 72 216H169Q190 212 182 191L188 187L180 178Q190 155 169 139Z" fill="#FFFEFA" stroke="#68746E" stroke-width="4" stroke-linejoin="round"/>
+ <ellipse cx="120" cy="182" rx="40" ry="32" fill="#EEF2EB"/>
+ <path d="M79 169Q67 185 77 202M163 169Q175 185 166 202" stroke="#DCE4DC" stroke-width="4" stroke-linecap="round"/>
+ <g class="cat-paw cat-paw-left"><path d="M96 204C96 189 72 187 65 202C59 216 70 220 96 217" fill="#FFFEFA" stroke="#68746E" stroke-width="4" stroke-linecap="round"/><path d="M75 214V210M84 215V211" stroke="#B9C5BB" stroke-width="2.5" stroke-linecap="round"/></g>
+ <g class="cat-paw cat-paw-right"><path d="M144 204C144 189 168 187 175 202C181 216 170 220 144 217" fill="#FFFEFA" stroke="#68746E" stroke-width="4" stroke-linecap="round"/>
+ <path d="M157 215V211M166 214V210" stroke="#B9C5BB" stroke-width="2.5" stroke-linecap="round"/></g>
+ <path d="M76 143Q120 159 166 143L160 160L135 164L120 184L96 160L80 158Z" fill="#AFCFC1" stroke="#68746E" stroke-width="3.5" stroke-linejoin="round"/>
+ <path d="M120 164C111 155 102 165 119 175C137 164 128 155 120 164" fill="#FFFEF5"/>
+ </g>
+ <g class="cat-head">
+ <g class="dog-ear dog-ear-left"><path d="M72 59C60 33 43 33 33 54C21 79 23 120 42 128C54 133 70 117 73 99" fill="#F0F0E7" stroke="#68746E" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M40 66Q31 92 41 112" stroke="#DADFD5" stroke-width="6" stroke-linecap="round"/></g>
+ <g class="dog-ear dog-ear-right"><path d="M168 59C180 33 197 33 207 54C219 79 217 120 198 128C186 133 170 117 167 99" fill="#F0F0E7" stroke="#68746E" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M200 66Q209 92 199 112" stroke="#DADFD5" stroke-width="6" stroke-linecap="round"/></g>
+ <path d="M52 83Q52 51 85 44L92 33L103 39Q113 26 122 37L137 30L141 40Q181 40 188 78L196 88L191 96Q207 117 191 133L196 141L180 143Q166 163 121 164Q74 164 60 146L46 143L51 134Q32 118 49 98L44 88Z" fill="#FFFEFA" stroke="#68746E" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M79 77Q86 71 94 75M146 75Q154 71 161 77" stroke="#D5DFD4" stroke-width="4" stroke-linecap="round"/>
+ <g class="cat-eyes" fill="#43524C"><g class="cat-pupils"><ellipse cx="87" cy="101" rx="5.5" ry="7"/><ellipse cx="154" cy="101" rx="5.5" ry="7"/><circle cx="89" cy="99" r="1.8" fill="white"/><circle cx="156" cy="99" r="1.8" fill="white"/></g></g>
+ <g class="cat-happy-eyes" stroke="#43524C" stroke-width="4" stroke-linecap="round"><path d="M79 103Q87 94 95 103M146 103Q154 94 162 103"/></g>
+ <ellipse cx="70" cy="119" rx="12" ry="7" fill="#E9B8B1" opacity=".75"/><ellipse cx="173" cy="119" rx="12" ry="7" fill="#E9B8B1" opacity=".75"/>
+ <path d="M91 116Q101 108 120 113Q141 108 151 119Q161 134 144 144Q121 157 98 144Q79 136 91 116Z" fill="#EEF2EB"/>
+ <path d="M110 134V142C110 157 132 157 132 142V134" fill="#EBA4A3" stroke="#68746E" stroke-width="2.5"/>
+ <path d="M121 138V145" stroke="#CB8387" stroke-width="2" stroke-linecap="round"/>
+ <path d="M108 116C108 109 134 109 134 116C134 122 125 128 121 128C117 128 108 122 108 116Z" fill="#43524C"/>
+ <path d="M114 115Q119 113 123 114" stroke="#82928A" stroke-width="2.5" stroke-linecap="round"/>
+ <path d="M121 127V132M121 132Q111 143 103 133M121 132Q131 143 139 133" stroke="#68746E" stroke-width="2.7" stroke-linecap="round"/>
+ </g>
+ <g class="cat-cup"><path d="M103 179H137V203Q120 213 103 203Z" fill="#C3DDDC" stroke="#68746E" stroke-width="3"/><path d="M137 184H144C156 184 153 200 139 197" stroke="#68746E" stroke-width="3"/><path d="M112 185V198" stroke="#FFF" stroke-width="3" stroke-linecap="round"/><path d="M114 171Q108 165 116 159M128 171Q122 165 130 159" stroke="#B8CDCB" stroke-width="2.5" stroke-linecap="round"/></g>
+ <g class="cat-heart"><path d="M196 40C181 27 175 48 196 59C218 47 209 27 196 40" fill="#DC8C96"/><path d="M211 23L214 17M220 37L227 35" stroke="#DBAF82" stroke-width="3" stroke-linecap="round"/></g>
+ </g>
+</svg>

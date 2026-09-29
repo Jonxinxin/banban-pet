@@ -1,0 +1,11 @@
+node_modules/
+release/
+test-results/
+/build/*.exe
+/build/*.pdb
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.bak
